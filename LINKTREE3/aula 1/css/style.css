@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    background: rebeccapurple;
+
+}
+
+.avatar {
+    width: 90px;
+    border-radius: 70px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Edu VIC WA NT Beginner',cursive;
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.social {
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10px 0px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    list-style: none;
+} 
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    display: block;
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(54,77,204);
+    font-weight: bold;
+}
+
+.links-list li a span {
+    color:grey;
+    display: block;
+    margin-top: 5PX;
+}
